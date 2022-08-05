@@ -20,7 +20,6 @@ body {
     align-items: center;
     padding-left: 10%;
     padding-right: 10%;
-    
 }
 
 .logo{
@@ -45,20 +44,19 @@ body {
     color:#F9FAF8;
     font-size: 48px;
     font-weight: bolder;
-
 }
 
 .banner-text{
     color:#E5E7EB;
     font-size: 16px;
+    margin-bottom: 10px;
 }
 
-button {
+.banner button {
     color:#F9FAF8;
     font-size: 16px;
     font-family: Roboto, sans-serif;
     font-weight: bold;
-    
     border: none;
     border-radius: 5px;
     background: #3882f6;
@@ -66,7 +64,7 @@ button {
     padding-bottom: 5px;
     padding-left: 30px;
     padding-right: 30px;
-    margin-top: 10px;
+    
   }
 
 .info-title{
@@ -83,6 +81,7 @@ button {
     display: flex;
     gap: 50px;
     justify-content: center;
+    padding-bottom: 100px;
 }
 
 .info {
@@ -94,18 +93,102 @@ button {
 }
 
 .info img{
-    
     border: 4px solid #3882f6;
     border-radius: 10px;
 }
 
 
-.quotes {
-
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    
 }
 
-.footer {
+.quote-block {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: auto;
+}
+.quote-text {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;    
+}
 
+.quote-author {
+    font-size: 22px;
+    display: flex;
+    font-weight: bold;
+    justify-content: flex-end;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    margin: auto;
+
+    
+}
+
+.call-mid {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-radius: 10px;
+    gap: 150px;
+
+    align-items: center;
+    align-content: center;
+}
+
+.call-title {
+
+    font-size: 22px;
+    font-weight: bold;
+    color:#F9FAF8;
+}
+
+.call-text {
+
+    font-size: 18px;
+    color:#e5e7eb;
+    font-weight: normal;
+    
+}
+
+.call button {
+    
+    color:#E5E7EB;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    border: solid;
+    border-radius: 5px;
+    background: #3882f6;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-color: #E5E7EB;
+  }
+
+.footer {
+    font-size: 20px;
+    background-color:#1f2937;
+    color:#e5e7eb;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 a:link {
@@ -121,7 +204,6 @@ ul {
     list-style-type: none;
     display: flex;
     gap: 30px;
-   
 }
 li {
     
